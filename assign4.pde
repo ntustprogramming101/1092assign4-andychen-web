@@ -173,13 +173,11 @@ void setup() {
    
 	// Initialize cabbages and their position
   for(int j=0;j<6;j++){
-    cabbageX[j]= floor(random(9))*SOIL_SIZE; 
-    cabbageY[j]= (floor(random(5))+j*4)*SOIL_SIZE; 
+    cabbageX[j]= floor(random(8))*SOIL_SIZE; 
+    cabbageY[j]= (floor(random(4))+j*4)*SOIL_SIZE; 
     //j=0 y=0~4 j=1 y=5~8 ...) 
   }
 }
-
-
 
 void draw() {
 

@@ -553,14 +553,7 @@ void draw() {
             soldierY[j]= (int(random(4))+j*4)*SOIL_SIZE; 
           }  
 				// Initialize cabbages and their position
-void initCabbages(){
-	cabbageX = new float[6];
-	cabbageY = new float[6];
-	for(int i = 0; i < 6; i++){
-		cabbageX[i] = floor(random(8)) * SOIL_SIZE;
-		cabbageY[i] = (floor(random(4))+ i * 4) * SOIL_SIZE; 
-	}
-}
+	initCabbages()
 
 			}
 
